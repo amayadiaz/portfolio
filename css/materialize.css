@@ -1610,7 +1610,7 @@ nav ul a span.badge { display: inline-block; float: none; margin-left: 4px; line
   .row .col.pull-xl12 { right: 100%; }
   .row .col.push-xl12 { left: 100%; } }
 
-nav { color: #fff; background-color: #2e7d32; width: 100%; height: 56px; line-height: 56px; }
+nav { color: #fff; background-color: #006064; width: 100%; height: 56px; line-height: 56px; }
 nav.nav-extended { height: auto; }
 nav.nav-extended .nav-wrapper { min-height: 56px; height: auto; }
 nav.nav-extended .nav-content { position: relative; line-height: normal; }
@@ -2701,11 +2701,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .about h3 { color: #616161; font-size: 40px; }
 
-.contact { background: #2e7d32; }
-.contact .p-icon { color: #FFFFFF; font-size: 60px; }
-.contact h3 { font-size: 40px; }
-.contact .p-info { margin-top: -60px; font-size: 22px; }
+.contact { background: #FFFFFF; }
+.contact .p-icon { color: #006064; font-size: 60px; }
+.contact h3 { color: #616161; font-size: 40px; }
+.contact .p-info { color: #616161; margin-top: -60px; font-size: 22px; }
 .contact .section { margin-top: -70px; padding: 10px 0px; }
+.contact .footer-copyright { background: #006064; }
 
 .main h1 { color: #FFFFFF; }
 .main h2 { color: #e0e0e0; font-size: 24px; }
@@ -2713,5 +2714,14 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .sentence h3 { color: #757575; font-size: 26px; }
 .sentence .section { margin-top: 170px; }
+
+.main-project { height: 200px; background: url("../images/i5.jpg"); background-size: cover; padding: 40px; }
+.main-project h2 { color: #F5F5F5; }
+
+.filters { padding: 40px; }
+
+.projects { margin-top: -30px; }
+
+.icon { margin-right: 5px; }
 
 /*# sourceMappingURL=materialize.css.map */
