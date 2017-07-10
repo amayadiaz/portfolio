@@ -1610,7 +1610,7 @@ nav ul a span.badge { display: inline-block; float: none; margin-left: 4px; line
   .row .col.pull-xl12 { right: 100%; }
   .row .col.push-xl12 { left: 100%; } }
 
-nav { color: #fff; background-color: #ee6e73; width: 100%; height: 56px; line-height: 56px; }
+nav { color: #fff; background-color: #2e7d32; width: 100%; height: 56px; line-height: 56px; }
 nav.nav-extended { height: auto; }
 nav.nav-extended .nav-wrapper { min-height: 56px; height: auto; }
 nav.nav-extended .nav-content { position: relative; line-height: normal; }
@@ -1632,7 +1632,7 @@ nav .nav-title { display: inline-block; font-size: 32px; padding: 28px 0; }
 nav ul { margin: 0; }
 nav ul li { transition: background-color .3s; float: left; padding: 0; }
 nav ul li.active { background-color: rgba(0, 0, 0, 0.1); }
-nav ul a { transition: background-color .3s; font-size: 1rem; color: #fff; display: block; padding: 0 15px; cursor: pointer; }
+nav ul a { transition: background-color .3s; font-size: 16px; color: #fff; display: block; padding: 0 15px; cursor: pointer; }
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating { margin-top: -2px; margin-left: 15px; margin-right: 15px; }
 nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.btn-flat > .material-icons, nav ul a.btn-floating > .material-icons { height: inherit; line-height: inherit; }
 nav ul a:hover { background-color: rgba(0, 0, 0, 0.1); }
@@ -2698,5 +2698,20 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .clockpicker-canvas-bg-trans { fill: #26a69a; }
 
 .clockpicker-canvas line { stroke: #26a69a; stroke-width: 4; stroke-linecap: round; /*shape-rendering: crispEdges;*/ }
+
+.about h3 { color: #616161; font-size: 40px; }
+
+.contact { background: #2e7d32; }
+.contact .p-icon { color: #FFFFFF; font-size: 60px; }
+.contact h3 { font-size: 40px; }
+.contact .p-info { margin-top: -60px; font-size: 22px; }
+.contact .section { margin-top: -70px; padding: 10px 0px; }
+
+.main h1 { color: #FFFFFF; }
+.main h2 { color: #e0e0e0; font-size: 24px; }
+.main .section { margin-top: 70px; }
+
+.sentence h3 { color: #757575; font-size: 26px; }
+.sentence .section { margin-top: 170px; }
 
 /*# sourceMappingURL=materialize.css.map */
