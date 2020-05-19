@@ -1,98 +1,304 @@
 <!DOCTYPE html>
 <html>
 
+<!-- GOOGLE ANALYTICS -->
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-105764831-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- END GOOGLE ANALYTICS -->
+
 <head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
 
-  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-
-  <!--Let browser know website is optimized for mobile-->
+  <!-- METAS -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <!-- END METAS -->
+
+  <!-- INFORMATION -->
+  <title>Julián Amaya | Ingeniería y Desarrollo de Software</title>
+  <meta name="description" content="Desarrollo de Software. Creación de Sitios Web, Software a la medida y Tiendas Online. Posicionamiento Web y Estadísticas de Uso.">
+  <link rel="icon" href="images/julian.png">
+  <!-- END INFORMATION -->
+
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+  <!-- END FONTS -->
+
+  <!-- FONT ICONS -->
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <!-- END FONT ICONS -->
+
+  <!-- STYLES -->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <!-- END STYLES -->
+
+
 </head>
 
 <body>
 
   <!-- NAV -->
-  <div class="navbar-fixed">
-    <nav class="navbar">
-      <div class="nav-wrapper container">
-        <a href="index.html" class="brand-logo">Gematech</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#about">Sobre Nosotros</a></li>
-          <li><a href="proyectos.html">Proyectos</a></li>
-          <li><a href="#contact">Contacto</a></li>
-        </ul>
-      </div>
-    </nav>
+  <div class="Navbar">
+    <div class="navbar-fixed">
+      <nav class="navbar">
+        <div class="nav-wrapper container">
+          <a href="index.html" class="brand-logo">JULIÁN AMAYA</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#profile">Perfil</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="https://medium.com/@julian.amaya" target="_blank">Blog</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="side-nav" id="mobile-demo">
+      <h3 class="center">JULIÁN AMAYA</h3>
+      <hr>
+      <li><a href="#profile">Perfil</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="https://medium.com/@julian.amaya" target="_blank">Blog</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
   </div>
-  <ul class="side-nav" id="mobile-demo">
-    <li><a href="#about">Sobre Nosotros</a></li>
-    <li><a href="proyectos.html">Proyectos</a></li>
-    <li><a href="#contact">Contacto</a></li>
-  </ul>
   <!-- END NAV -->
 
   <!-- PARALLAX -->
-  <div id="about" class="parallax-container main">
-    <div class="parallax"><img src="images/i9.jpg"></div>
-    <div class="section">
-      <div class="container">
-        <h1 class="center">Gematech</h1>
-        <h2 class="center">Ideas de Innovación en la AgroIndustria</h2>
+  <div class="Parallax">
+
+    <!-- PRESENTATION -->
+    <div class="Presentation">
+      <div id="profile" class="parallax-container">
+        <div class="parallax"><img id="background" src="images/backs/img2.jpg" alt="Logo"></div>
+        <div class="section">
+          <div class="container">
+            <h1 class="center"><span class="firstname">JULIÁN</span><span class="lastname">AMAYA</span><span class="center profession1">INGENIERÍA Y DESARROLLO DE SOFTWARE</span></h1>
+            <p class="center social-icons">
+              <a href="https://www.linkedin.com/in/julianamayad/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://github.com/julianamayad" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/julianamayad" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="section about white">
-    <div class="row container">
-      <h3 class="center">Sobre Nosotros</h3>
-      <p class=" grey-text text-darken-3 lighten-3 center ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-    </div>
-  </div>
-  <div class="parallax-container sentence">
-    <div class="parallax "><img src="images/i8.jpg "></div>
-    <div class="section">
-      <div class="container">
-        <h3 class="center">"Cada país debe cuidar la variedad de insumos que tiene y ser promotor de su agricultura para que la cultura del país salga adelante." - Alain Ducasse</h2>
+    <!-- END PRESENTATION -->
+
+    <!-- PROFILE -->
+    <div class="Profile section  white">
+      <div class="row container">
+        <p class="center">Bienvenido, mi nombre es Julián Amaya, Ingeniero de Sistemas e Informática, enfocado en el desarrollo de software
+          y gestión de proyectos tecnológicos. Con mis habilidades puedo ayudarte a impulsar tu empresa, producto o marca
+          personal, a través de herramientas digitales que aumenten la visibiliad, ventas y experiencia de usuario en tu
+          negocio.</p>
       </div>
     </div>
+    <!-- END PROFILE -->
+
+    <!-- SERVICES -->
+    <div id="services" class="Services parallax-container">
+      <div class="parallax"><img id="background" src="images/backs/img2.jpg" alt="Logo"></div>
+      <div class="section">
+        <h2 class="center">Servicios</h2>
+        <div class="row container center">
+          <div class="col m3 foo">
+            <p><i class="material-icons">desktop_mac</i></p>
+            <h5 class="center">Creación de Sitios Web
+              <hr>
+            </h5>
+            <p>Muestra tu negocio al mundo, por medio de un Sitio Web que aumente la visibilidad y conexión con posibles clientes.</p>
+          </div>
+          <div class="col m3 foo">
+            <p><i class="material-icons">store</i></p>
+            <h5 class="center">Creación de Tiendas Online
+              <hr>
+            </h5>
+            <p>Presenta y actualiza tus productos, gestiona y realiza ventas, por medio de una Tienda Online.</p>
+          </div>
+          <div class="col m3 foo">
+            <p><i class="material-icons">developer_mode</i></p>
+            <h5 class="center">Software a la medida
+              <hr>
+            </h5>
+            <p class="center">¿Necesitas un software específico para tu empresa, marca o proyecto ? Cuentame tu idea y te daré una solución.</p>
+          </div>
+          <div class="col m3 foo">
+            <p><i class="material-icons">search</i></p>
+            <h5 class="center">Posicionamiento Web
+              <hr>
+            </h5>
+            <p class="center">Con diferentes estrategias optimizo tu Sitio Web en Google, para que más usuarios encuentren tu negocio.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SERVICES -->
+
+    <!-- PROJECTS -->
+    <div id="projects" class="Projects section  white">
+      <div class="container">
+        <div class="row">
+          <h2>Proyectos</h2>
+          <div class="col s12 m6 foo">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/p6.png" alt="3DOG1 Portada">
+              </div>
+              <div class="card-content center center">
+                <span class="card-title">3DOG1</span>
+                <p>Emprendimiento apoyado por MINTIC Colombia, que permite a Petlovers resolver dudas sobre la salud de sus
+                  mascotas con Veterinarios Expertos.</p>
+                <a class="waves-effect waves-light btn" href="http://3dog1.pet/" target="_blank">Ver Proyecto</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 foo">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/p5.png" alt="MR Rental and Supply Portada">
+              </div>
+              <div class="card-content center">
+                <span class="card-title">MR Rental and Supply</span>
+                <p>Sitio Web para la empresa MR Ingenieros, que permite a un usuario conocer y buscar la maquinaria pesada de
+                  la empresa para servicios de alquiler o venta.</p>
+                <a class="waves-effect waves-light btn" href="http://www.mrrentalandsupply.com/" target="_blank">Ver Proyecto</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col s12 m6 foo">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/p4.png" alt="COIES 2017 Portada">
+              </div>
+              <div class="card-content center">
+                <span class="card-title">COIES 2017</span>
+                <p>Sitio Web para la Universidad Industrial de Santander con el objetivo de presentar y promocionar la Conferencia
+                  Internacional de Energía Sostenible.</p>
+                <a class="waves-effect waves-light btn" href="http://www.coies2017.com/" target="_blank">Ver Proyecto</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 foo">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/p3.png" alt="SARA Portada">
+              </div>
+              <div class="card-content center">
+                <span class="card-title">SARA</span>
+                <p>Plataforma Web para la Facultad de Ingeniería de Sistemas e Informática de la UPB Bucaramanga, que permite
+                  a los docentes gestionar y crear libros digitales.</p>
+                <a class="waves-effect waves-light btn" href="http://sara.bucaramanga.upb.edu.co/" target="_blank">Ver Proyecto</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col s12 m6 foo">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/p2.png" alt="STSIVA 2016 Portada">
+              </div>
+              <div class="card-content center">
+                <span class="card-title">STSIVA 2016</span>
+                <p>Sitio Web para presentar y promocionar el Simposio Internacional de Señales y Procesamiento de Imagenes y
+                  Visión Artificial en la UPB Bucaramanga.</p>
+                <a class="waves-effect waves-light btn" href="http://stsiva.org/" target="_blank">Ver Proyecto</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 foo">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/p1.png" alt="Seminario Nanotecnología Portada">
+              </div>
+              <div class="card-content center">
+                <span class="card-title">Seminario Nanotecnología</span>
+                <p>Sitio Web con el objetivo de presentar y promocionar el Seminario Internacional de Nanociencia y Nanotecnología
+                  en la UPB Bucaramanga.</p>
+                <a class="waves-effect waves-light btn" href="http://seminarionano.bucaramanga.upb.edu.co/" target="_blank">Ver Proyecto</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- END PROJECTS -->
+
+
+    <!-- SENTENCE -->
+    <div class="Sentence parallax-container">
+      <div class="parallax "><img src="images/sentence2.jpg" alt="Frase"></div>
+      <div class="section">
+        <div class="container">
+          <h3 class="center">El software te da alcance global, prestigio y oportunidad, no renuncies a sus bondades porque hoy es trascendental.</h2>
+        </div>
+      </div>
+    </div>
+    <!-- END SENTENCE -->
+
   </div>
   <!-- END PARALLAX -->
 
   <!-- FOOTER -->
-  <footer id="contact" class="page-footer contact">
+  <footer id="contact" class="Contact page-footer">
     <div class="container">
-      <h3 class="center">Contacto</h3>
+      <h2 class="center">Contacto</h2>
       <div class="section row">
-        <div class="col s12 m6">
-          <p class="center p-icon"><i class="fa fa-phone" aria-hidden="true"></i></p>
-          <p class="center p-info">gematech@gmail.com</p>          
-        </div>
-        <div class="col s12 m6">
+        <div class="col s12 m12">
           <p class="center p-icon"><i class="fa fa-envelope" aria-hidden="true"></i></p>
-          <p class="center p-info">(+57) 3123344890</p>          
+          <p class="center p-info">julian.amayad@gmail.com</p>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-        © 2017 Gematech
+        © 2017 Julián Amaya | Ingeniería y Desarrollo de Software
         <a class="grey-text text-lighten-4 right" href="#!"></a>
       </div>
     </div>
   </footer>
   <!-- END FOOTER -->
 
-
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
   <script type="text/javascript " src="js/bin/materialize.min.js "></script>
   <script type="text/javascript " src="js/start.js "></script>
-  
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.foo', { duration: 2000 });
+    sr.reveal('.bar');
+  </script>
 
 </body>
 

@@ -1,25 +1,194 @@
-.about{
+@font-face {
+    font-family: "HelveticaNeue";
+    src: url("../../fonts/helvetica-neue.woff") format('woff');
+}
+
+
+body{
+    color: #616161;
+}
+
+.Navbar{
+
+    font-family: 'Lato', sans-serif;
+
+    nav ul a{
+        font-size: 17px;
+
+        &:hover{
+            color: #b2ebf2;
+        }
+    }
+    
+    .brand-logo{
+        font-family: "HelveticaNeue";
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .side-nav{
+        background-color: #0a2e3d;
+        color: #FFFFFF;
+
+        h3{
+            font-family: "HelveticaNeue";
+            font-size: 20px;
+            letter-spacing: 5px;
+        }
+        
+        li a{
+            color: #FFFFFF;
+            text-align: center;
+        }
+    }
+}
+
+.Presentation{
+
+    h1{ 
+        font-family: "HelveticaNeue" !important;
+        color: #FFFFFF;
+        
+    }
+
+    .firstname{
+        font-size: 40px;
+        display: block;
+        margin-bottom: 10px;
+        letter-spacing: 10px; 
+    }
+
+    .lastname{
+        font-size: 80px;
+        display: block; 
+        margin-bottom: 10px; 
+        letter-spacing: 20px;
+    }
+
+    .profession1{
+        font-size: 20px;
+        display: block;
+        letter-spacing: 10px;
+    }
+
+    .section{
+        margin-top: 30px;
+    }
+
+    .social-icons{
+        font-size: 35px;
+        margin-top: -20px;
+        
+        a{
+            color: #0a2e3d;
+            margin-right: 2px;
+        }
+
+    }
+}
+
+.Profile{
     h3{ 
         color: #616161;
         font-size: 40px;
     }
+
+    p{
+        font-size: 21px !important;
+        font-family: 'Lato', sans-serif;
+        color: #524e4d;
+    }
 }
 
-.contact{
+.Services{
+    
+        height: 100%;
+        padding: 70px 0px;
+    
+    
+        i{
+            background-color: #0a2e3d;
+            color: #FFFFFF;
+            font-size: 60px;
+            padding: 50px;
+            border-radius: 50%;
+        }
+    
+        p{
+            font-size: 16px;
+            font-family: "Lato";
+            color: #eeeeee;
+        }
+    
+        h2{
+            color: #FFFFFF;
+            font-family: "Lato";
+            font-size: 50px;
+        }
+    
+        h5{
+            color: #FFFFFF;
+            font-weight: 300;
+        }
+           
+}
+
+.Projects{
+    
+    h2{ 
+        margin-top: 80px;
+        color: #0a2e3d;
+        font-family: "Lato";
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .card-title{
+        color: #0a2e3d;
+    }
+
+    p{
+        font-family: "Lato";
+        color: #524e4d !important;
+    }
+
+    .btn{
+        background-color: #2D818E;
+        font-family: "Lato";
+        margin-top: 20px;
+    }
+}
+
+.Sentence{
+    h3{
+        color: #FFFFFF;
+        font-family: 'Lato', sans-serif;
+        font-size: 28px;
+    }
+    .section{
+        margin-top: 170px;
+    }
+}
+
+.Contact{
     background: #FFFFFF ;
 
     .p-icon{
-        color: #006064;
+        color: #2D818E;
         font-size: 60px;
     }
 
-    h3{
-        color: #616161;
-        font-size: 40px;
+    h2{
+        color: #0a2e3d;
+        color: #0a2e3d;
+        font-family: "Lato";
+        font-size: 50px;
     }
 
     .p-info{
         color: #616161;
+        font-family: 'Lato', sans-serif;
         margin-top: -60px;
         font-size: 22px;
     }
@@ -30,52 +199,9 @@
     }
 
     .footer-copyright{
-        background: #006064;
+        background: #0a2e3d;
+        font-family: 'Lato', sans-serif;
     }
 }
 
-.main{
-    h1{
-        color: #FFFFFF;
-    }
-    h2{
-        color: #e0e0e0;
-        font-size: 24px;
-    }
-    .section{
-        margin-top: 70px;
-    }
-}
 
-.sentence{
-    h3{
-        color: #757575;
-        font-size: 26px;
-    }
-    .section{
-        margin-top: 170px;
-    }
-}
-
-.main-project{
-    height: 200px;
-    background: url("../images/i5.jpg");
-    background-size: cover;
-    padding: 40px;
-
-    h2{
-        color: #F5F5F5;
-    }
-}
-
-.filters{
-    padding: 40px;
-}
-
-.projects{
-    margin-top: -30px;
-}
-
-.icon{
-    margin-right: 5px;
-}

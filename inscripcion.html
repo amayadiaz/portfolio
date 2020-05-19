@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <title>COIES 2017</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  
+
+  <link rel="icon" href="img/favicon.png">
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+  <script type="text/javascript" src="js/templates.js"></script>
+
+</head>
+
+<body>
+
+  
+  <div id="header"></div>
+
+  <script type="text/javascript">
+    var header = Handlebars.templates['cabecera'];
+    document.getElementById('header').innerHTML += header();
+  </script>
+
+  <nav class="green-uis" role="navigation">
+    <div class="nav-wrapper container nav-uis">
+      <ul class="left hide-on-med-and-down nav-margin menu-uis">
+        <li><a href="index.html" class="font-nav">Inicio</a></li>
+        <li><a href="tematicas.html" class="font-nav">Temáticas</a></li>
+        <li><a href="comites.html" class="font-nav">Comités</a></li>
+        <li><a href="conferencistas.html" class="font-nav">Conferencistas</a></li>
+        <li><a href="programa.html" class="font-nav">Programa</a></li>
+        <li class="active"><a href="inscripcion.html" class="font-nav">Fechas e Inscripción</a></li>
+        <li><a href="resumenes.html" class="font-nav">Resúmenes</a></li>
+        <li><a href="workshop.html" class="font-nav">Workshop</a></li>
+        <li><a href="bucaramanga.html" class="font-nav">Lugar del Evento</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="center side-nav" style="transform: translateX(-100%);">
+        <li><a href="index.html" class="font-nav">Inicio</a></li>
+        <li><a href="tematicas.html" class="font-nav">Temáticas</a></li>
+        <li><a href="comites.html" class="font-nav">Comités</a></li>
+        <li><a href="conferencistas.html" class="font-nav">Conferencistas</a></li>
+        <li><a href="programa.html" class="font-nav">Programa</a></li>
+        <li class="active"><a href="inscripcion.html" class="font-nav">Fechas e Inscripción</a></li>
+        <li><a href="resumenes.html" class="font-nav">Resúmenes</a></li>  
+        <li><a href="workshop.html" class="font-nav">Workshop</a></li>
+        <li><a href="bucaramanga.html" class="font-nav">Lugar del Evento</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse center"><i class="material-icons">menu</i><p style="display: inline-block;"></p></a>
+    </div>
+  </nav>
+
+
+
+
+  <div class="white">
+    <div class="container section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+            <div class="container section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4 class="center">Fechas Importantes</h4>
+          <ul class="collapsible-uis">
+            <li>
+              <div class="collapsible-header font-collapsible"><i class="material-icons">perm_contact_calendar</i>Fecha límite de recepción de Abstracts: 15 de Septiembre
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header font-collapsible"><i class="material-icons">perm_contact_calendar</i>Fecha ordinaria para pago de inscripciones: 22 de Septiembre</div>
+            </li>
+            <li>
+              <div class="collapsible-header font-collapsible"><i class="material-icons">perm_contact_calendar</i>Fecha extraordinaria para pago de inscripción: 06 de Octubre</div>
+            </li>
+            <li>
+              <div class="collapsible-header font-collapsible"><i class="material-icons">perm_contact_calendar</i>Fecha del evento: 17 al 20 de 0ctubre 2017
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+        <div class="col s12">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4 class="center">Costos de Inscripción</h4>
+          <h5></h5>
+          <div class="row tabs-uis">
+            <div class="col s12">
+              <ul class="tabs">
+                <li class="tab col s4 tabs-separator"><a class="active" href="#test1">PREGRADO</a></li>
+                <li class="tab col s4 tabs-separator"><a href="#test2">POSGRADO</a></li>
+                <li class="tab col s4 tabs-separator"><a href="#test4">PARTICULARES / PONENTES</a></li>
+              </ul>
+            </div>
+            <br>
+            <br>
+            <div id="test1" class="col s12">
+              <table class="striped responsive-table">
+                <thead>
+                  <tr>
+                      <th><p class="center">Pago</p></th>
+                      <th><p class="center">Estudiantes</p></th>
+                      <th><p class="center">Estudiantes UIS</p></th>
+                      <th><p class="center">Estudiantes Capitulos<br>Asociados</p></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><p class="center">Oportuno hasta:<br>22 de Septiembre</p></td>
+                    <td><p class="center price">$300,000</p></td>
+                    <td><p class="center price">$250,000</p></td>
+                    <td><p class="center price">$200,000</p></td>
+                  </tr>
+                  <tr>
+                    <td><p class="center">Extraordinario hasta:<br>06 de Octubre</p></td>
+                    <td><p class="center price">$360,000</p></td>
+                    <td><p class="center price">$300,000</p></td>
+                    <td><p class="center price">$240,000</p></td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+            <div id="test2" class="col s12">
+              <table class="striped responsive-table">
+                <thead>
+                  <tr>
+                      <th><p class="center">Pago</p></th>
+                      <th><p class="center">Estudiantes</p></th>
+                      <th><p class="center">Estudiantes UIS</p></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><p class="center">Oportuno hasta:<br>22 de Septiembre</p></td>
+                    <td><p class="center price">$350,000</p></td>
+                    <td><p class="center price">$300,000</p></td>
+                  </tr>
+                  <tr>
+                    <td><p class="center">Extraordinario hasta:<br>06 de Octubre</p></td>
+                    <td><p class="center price">$420,000</p></td>
+                    <td><p class="center price">$360,000</p></td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+            <div id="test4" class="col s12">
+              <table class="striped responsive-table">
+                <thead>
+                  <tr>
+                      <th><p class="center">Pago</p></th>
+                      <th><p class="center">Particulares</p></th>
+                      <th><p class="center">Ponentes</p></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><p class="center">Oportuno hasta:<br>22 de Septiembre</p></td>
+                    <td><p class="center price">$500,000</p></td>
+                    <td><p class="center price">$450,000</p></td>
+                  </tr>
+                  <tr>
+                    <td><p class="center">Extraordinario hasta:<br>06 de Octubre</p></td>
+                    <td><p class="center price">$600,000</p></td>
+                    <td><p class="center price">$540,000</p></td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+          </div>
+            
+
+          <div class="row">
+            <h4 class="center">Instrucción de Inscripción</h4>
+            <div class="col s12 m4">
+            </div>
+            <div class="col s12 m8">
+              <p class="justify guide-txt">Ingresa al siguiente enlace: <a href="https://www.uis.edu.co/ventas_web/indexUIS.jsp" target="_blank">www.uis.edu.co/ventas</a></p>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col s12 m4">
+              <p class="center font-register"><i class="fa fa-check-square-o" aria-hidden="true"></i><strong>Paso 1:</strong></p>
+            </div>
+            <div class="col s12 m8">
+              <p class="justify guide-txt">En la parte superior izquierda de la página encontrará la pestaña “Registro”, aquí debe diligenciar el formulario con sus datos completos.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m4">
+              <p class="center font-register"><i class="fa fa-search" aria-hidden="true"></i><strong>Paso 2:</strong></p>
+            </div>
+            <div class="col s12 m8">
+              <p class="justify guide-txt">Una vez registrado, en la parte superior izquierda de la página encontrará la pestaña “Servicios”; aquí aparecerá el tipo de servicio que va a adquirir. Aparecerá: nombre del evento, la categoría a la cual desea inscribirse y el valor total a pagar. También puede realizar su búsqueda en la pestaña “Buscar Servicios” solamente con las siglas del evento: COIES2017<br>El nombre de las categorías son las siguientes.</p>
+              <ul>
+                <li class="justify">COIES2017- ESTUDIANTES PREGRADO</li>
+                <li class="justify">COIES2017- ESTUDIANTES PREGRADO UIS</li>
+                <li class="justify">COIES2017- ESTUDIANTES PREGRADO UIS (CAPITULOS Y CENTROS DE ESTUDIO ASOCIADOS).</li>
+                <li class="justify">COIES2017- ESTUDIANTES POSGRADO UIS</li>
+                <li class="justify">COIES2017- PARTICULARES</li>
+                <li class="justify">COIES2017- PARTICULARES PONENTES</li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col s12 m4">
+              <p class="center font-register"><i class="fa fa-mouse-pointer" aria-hidden="true"></i><strong>Paso 3:</strong></p>
+            </div>
+            <div class="col s12 m8">
+              <p class="justify guide-txt">Pulse el botón “Adquirir” y complete la información solicitada de acuerdo al registro realizado previamente.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m4">
+              <p class="center font-register"><i class="fa fa-money" aria-hidden="true"></i><strong>Paso 4:</strong></p>
+            </div>
+            <div class="col s12 m8">
+              <p class="justify guide-txt">Realice el pago y guarde la constancia de la transacción realizada.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m4">
+              <p class="center font-register"><i class="fa fa-envelope-o" aria-hidden="true"></i><strong>Paso 5:</strong></p>
+            </div>
+            <div class="col s12 m8">
+              <p class="justify guide-txt">Envíe la consignación escaneada o el comprobante de pago electrónico junto con los siguientes datos al correo electrónico: coies2017@uis.edu.co</p>
+              <ul>
+                <li class="justify">Nombres y apellidos completo</li>
+                <li class="justify">Cedula de Ciudadanía</li>
+                <li class="justify">Tipo de participación: (Diferentes categorías)</li>
+                <li class="justify">Para estudiantes de pregrado y posgrado: copia del carné estudiantil.</li>
+                <li class="justify">Para estudiantes asociados a los capítulos estudiantiles: copia de afiliación vigente.</li>
+                <li class="justify">Para ponentes: certificado de aceptación como ponencia o póster</li>
+              </ul>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="footer"></div>
+
+  <script type="text/javascript">
+    var footer = Handlebars.templates['footer'];
+    document.getElementById('footer').innerHTML += footer();
+  </script>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.modal').modal();
+    });
+  </script>
+
+</body>
+
+</html>
